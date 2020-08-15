@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wpoudre/Desktop/cl_tests
+CMake Error at CMakeLists.txt:10 (target_include_directories):
+  Cannot specify include directories for target "cl_tests" which is not built
+  by this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeError.log".

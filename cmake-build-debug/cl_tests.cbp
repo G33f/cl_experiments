@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cl_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libft\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cl_tests">
+				<Option output="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/cl_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests/include"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 cl_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cl_tests/fast">
+				<Option output="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/cl_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests/include"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 cl_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft">
+				<Option output="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests/libft/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 ft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft/fast">
+				<Option output="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/libft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework"/>
+					<Add directory="/Users/wpoudre/Desktop/cl_tests/libft/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 ft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/libft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_alpdown.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_alpup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_atoi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_bzero.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_cu_wards.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_isalnum.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_isalpha.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_isascii.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_isdigit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_isprint.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_itoa.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstadd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstdelone.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstiter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstnelem.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_lstnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_matcp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_matdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memalloc.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memccpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memmove.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_memset.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_pow.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putchar.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putchar_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putendl.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putendl_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putmat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putnbr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putnbr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_putstr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_sqrt.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strclr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strdup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_striter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_striteri.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strjoin.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strjoinfree.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strlcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strlen.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strmapi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strncat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strncmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strncpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strndup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strnequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strnstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strrchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strsplit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strsub.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_strtrim.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_tolower.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_toupper.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/srcs/main.c">
+			<Option target="cl_tests"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libft\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

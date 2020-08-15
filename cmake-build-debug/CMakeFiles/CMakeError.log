@@ -1,0 +1,84 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ada08/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ada08.dir/build.make CMakeFiles/cmTC_ada08.dir/build
+Building C object CMakeFiles/cmTC_ada08.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/cmTC_ada08.dir/CheckSymbolExists.c.o   -c /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_ada08.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_ada08/fast] Error 2
+
+
+File /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df9d3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_df9d3.dir/build.make CMakeFiles/cmTC_df9d3.dir/build
+Building C object CMakeFiles/cmTC_df9d3.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/cmTC_df9d3.dir/CheckSymbolExists.c.o   -c /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_df9d3.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_df9d3/fast] Error 2
+
+
+File /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb244/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cb244.dir/build.make CMakeFiles/cmTC_cb244.dir/build
+Building C object CMakeFiles/cmTC_cb244.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/cmTC_cb244.dir/CheckSymbolExists.c.o   -c /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_cb244.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_cb244/fast] Error 2
+
+
+File /Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
