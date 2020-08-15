@@ -15,7 +15,7 @@ add_subdirectory(libft)
 include_directories(include)
 
 add_executable(cl_tests
-        srcs/main.c)
+        srcs/test_struct/main.c)
 
 target_include_directories (cl_tests PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries (cl_tests ${OpenCL_LIBRARY})
