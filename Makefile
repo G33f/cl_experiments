@@ -1,6 +1,6 @@
 NAME			= test
 
-SOURSE_DIRS		:= srcs
+SOURSE_DIRS		:= srcs srcs/test_nonkernal_func
 
 FLAGS			= -Wall -Werror -Wextra
 
@@ -22,7 +22,7 @@ LIB_INC			= include/libft.h
 
 all: $(NAME)
 
-$(NAME): $(LIB_OBJS) $(OBJECTS)
+$(NAME): $(LIB_OBJS) $(OBJECTS) Makefile
 	gcc $(OBJECTS) -o $@ $(framework)
 
 $(LIB_DIR)%.o: $(LIB_DIR)%.c $(LIB_INC)

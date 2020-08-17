@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/wpoudre/Desktop/cl_tests/srcs/main.c" "/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/cl_tests.dir/srcs/main.c.o"
+  "/Users/wpoudre/Desktop/cl_tests/srcs/test_struct/main.c" "/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

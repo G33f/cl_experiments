@@ -25,7 +25,6 @@ __kernel void draw(__global int* vec_len, t_vec vec)
 {
 	int i;
 	int gid = get_global_id(0);
-	i = (int)sqrt(pow(vec.x, 2) + pow(vec.y, 2) + pow(vec.z, 2));
 	i = foo(i, vec);
 	vec_len[gid] = i;
 }

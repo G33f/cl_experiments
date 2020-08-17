@@ -156,32 +156,32 @@ ft/fast:
 	$(MAKE) $(MAKESILENT) -f libft/CMakeFiles/ft.dir/build.make libft/CMakeFiles/ft.dir/build
 .PHONY : ft/fast
 
-srcs/main.o: srcs/main.c.o
+srcs/test_struct/main.o: srcs/test_struct/main.c.o
 
-.PHONY : srcs/main.o
+.PHONY : srcs/test_struct/main.o
 
 # target to build an object file
-srcs/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/main.c.o
-.PHONY : srcs/main.c.o
+srcs/test_struct/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o
+.PHONY : srcs/test_struct/main.c.o
 
-srcs/main.i: srcs/main.c.i
+srcs/test_struct/main.i: srcs/test_struct/main.c.i
 
-.PHONY : srcs/main.i
+.PHONY : srcs/test_struct/main.i
 
 # target to preprocess a source file
-srcs/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/main.c.i
-.PHONY : srcs/main.c.i
+srcs/test_struct/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.i
+.PHONY : srcs/test_struct/main.c.i
 
-srcs/main.s: srcs/main.c.s
+srcs/test_struct/main.s: srcs/test_struct/main.c.s
 
-.PHONY : srcs/main.s
+.PHONY : srcs/test_struct/main.s
 
 # target to generate assembly for a file
-srcs/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/main.c.s
-.PHONY : srcs/main.c.s
+srcs/test_struct/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cl_tests.dir/build.make CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.s
+.PHONY : srcs/test_struct/main.c.s
 
 # Help Target
 help:
@@ -193,9 +193,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cl_tests"
 	@echo "... ft"
-	@echo "... srcs/main.o"
-	@echo "... srcs/main.i"
-	@echo "... srcs/main.s"
+	@echo "... srcs/test_struct/main.o"
+	@echo "... srcs/test_struct/main.i"
+	@echo "... srcs/test_struct/main.s"
 .PHONY : help
 
 

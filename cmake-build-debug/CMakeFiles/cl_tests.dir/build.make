@@ -77,27 +77,27 @@ include CMakeFiles/cl_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cl_tests.dir/flags.make
 
-CMakeFiles/cl_tests.dir/srcs/main.c.o: CMakeFiles/cl_tests.dir/flags.make
-CMakeFiles/cl_tests.dir/srcs/main.c.o: ../srcs/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cl_tests.dir/srcs/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cl_tests.dir/srcs/main.c.o   -c /Users/wpoudre/Desktop/cl_tests/srcs/main.c
+CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o: CMakeFiles/cl_tests.dir/flags.make
+CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o: ../srcs/test_struct/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o   -c /Users/wpoudre/Desktop/cl_tests/srcs/test_struct/main.c
 
-CMakeFiles/cl_tests.dir/srcs/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cl_tests.dir/srcs/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wpoudre/Desktop/cl_tests/srcs/main.c > CMakeFiles/cl_tests.dir/srcs/main.c.i
+CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wpoudre/Desktop/cl_tests/srcs/test_struct/main.c > CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.i
 
-CMakeFiles/cl_tests.dir/srcs/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cl_tests.dir/srcs/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wpoudre/Desktop/cl_tests/srcs/main.c -o CMakeFiles/cl_tests.dir/srcs/main.c.s
+CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wpoudre/Desktop/cl_tests/srcs/test_struct/main.c -o CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.s
 
 # Object files for target cl_tests
 cl_tests_OBJECTS = \
-"CMakeFiles/cl_tests.dir/srcs/main.c.o"
+"CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o"
 
 # External object files for target cl_tests
 cl_tests_EXTERNAL_OBJECTS =
 
-cl_tests: CMakeFiles/cl_tests.dir/srcs/main.c.o
+cl_tests: CMakeFiles/cl_tests.dir/srcs/test_struct/main.c.o
 cl_tests: CMakeFiles/cl_tests.dir/build.make
 cl_tests: CMakeFiles/cl_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wpoudre/Desktop/cl_tests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable cl_tests"

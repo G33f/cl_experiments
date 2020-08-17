@@ -339,7 +339,7 @@
 		<Unit filename="/Users/wpoudre/Desktop/cl_tests/libft/ft_toupper.c">
 			<Option target="ft"/>
 		</Unit>
-		<Unit filename="/Users/wpoudre/Desktop/cl_tests/srcs/main.c">
+		<Unit filename="/Users/wpoudre/Desktop/cl_tests/srcs/test_struct/main.c">
 			<Option target="cl_tests"/>
 		</Unit>
 		<Unit filename="/Users/wpoudre/Desktop/cl_tests/CMakeLists.txt">
