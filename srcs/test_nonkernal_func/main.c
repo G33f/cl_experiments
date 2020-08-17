@@ -97,7 +97,7 @@ t_data	cl_buffer(t_data p)
 
 t_data	init_test(t_data params)
 {
-	params = cl_krenal_creat(params, "cl_test_files/test_struct/test.cl");
+	params = cl_krenal_creat(params, "test.cl");
 	error(params.cl.ret);
 	return (params);
 }
