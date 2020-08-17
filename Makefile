@@ -1,10 +1,10 @@
 NAME			= test
 
-SOURSE_DIRS		:= srcs srcs/test_nonkernal_func
+SOURSE_DIRS		:= srcs srcs/test_cl_and_include_header
 
 FLAGS			= -Wall -Werror -Wextra
 
-framework		= -framework OpenCL -framework AppKit -L libft -lft
+framework		= -L minilibx_macos -lmlx -framework OpenCL -framework OpenGL -framework AppKit -L libft -lft
 
 SEARCH_WILDCARDS:= $(addsuffix /*.c, $(SOURSE_DIRS))
 
@@ -20,21 +20,27 @@ TEST_INC		= include/test.h
 
 LIB_INC			= include/libft.h
 
+LIB_MLX_FILE	=	minilibx_macos/libmlx.a
+
 all: $(NAME)
 
-$(NAME): $(LIB_OBJS) $(OBJECTS) Makefile
+$(NAME): $(LIB_OBJS) $(LIB_MLX_FILE) $(OBJECTS)
 	gcc $(OBJECTS) -o $@ $(framework)
 
 $(LIB_DIR)%.o: $(LIB_DIR)%.c $(LIB_INC)
 	make -C $(LIB_DIR)
 
+$(LIB_MLX_FILE):
+	make -C minilibx_macos
+
 VPATH := $(SOURSE_DIRS)
 
-%.o: %.c $(TEST_INC)
+%.o: %.c $(TEST_INC) Makefile
 	gcc $(FLAGS) -c $< -I include/
 
 clean:
-	make clean -C libft
+	make clean -C $(LIB_DIR)
+	make clean -C minilibx_macos
 	rm -rf *.o
 
 fclean: clean
