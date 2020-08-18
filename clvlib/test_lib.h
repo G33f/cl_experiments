@@ -3,5 +3,6 @@
 
 # include "test1.cl"
 # include "test2.cl"
+# include "test_sphere.cl"
 
 #endif

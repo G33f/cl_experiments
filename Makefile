@@ -1,6 +1,6 @@
 NAME			= test
 
-SOURSE_DIRS		:= srcs srcs/test_make_cl_lib
+SOURSE_DIRS		:= srcs srcs/test_nontextur_sphere
 
 FLAGS			= -Wall -Werror -Wextra
 
