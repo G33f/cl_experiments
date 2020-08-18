@@ -10,5 +10,6 @@ typedef struct	s_vec
 }				t_vec;
 
 int				foo(t_vec vec);
+int 			bar(int i);
 
 #endif
