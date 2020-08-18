@@ -1,6 +1,6 @@
 NAME			= test
 
-SOURSE_DIRS		:= srcs srcs/test_cl_and_include_header
+SOURSE_DIRS		:= srcs srcs/test_include_other_cl_file
 
 FLAGS			= -Wall -Werror -Wextra
 
